@@ -1,84 +1,92 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-<head><meta charset="utf-8"/>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
 
-<style>
-#container { font-family: 'Asar', serif; }
-p#user_id_1 {color:white;}
- body 
-       { 
-         background-size : 100%; 
-         background-repeat : no-repeat; 
+<style type="text/css">
+    body {
+      font-family: 'Asar', serif;
         width: 1500px;
-        margin: 0px auto;
+        margin : auto;
         padding: 20px;
-        border: 1px solid #bcbcbc;
-      }
-      #header {
+        border-radius : 25px;
+        border: 3px dashed #bcbcbc;
+    }
+  header {
         padding: 20px;
         margin-bottom: 20px;
         border: 1px solid #bcbcbc;
         background-image : url('P.png');
-      }
-      #nav {
-        width: 150px;
-        padding: 40px;
+    }
+    nav, section {
+        float: left;
+    }
+    nav {
+       width: 150px;
+        padding: 15px;
         margin-right: 30px;
         margin-bottom: 20px;
-        float: left;
         border: 1px solid #bcbcbc;
         background-color : #EAEAEA; 
-      }
-      #artcle {
-        width: 900px;
-        padding: 20px;
-        margin-bottom: 20px;
-        float: left;
-        border: 1px solid #bcbcbc;
-        background-color : #EAEAEA; 
-      }
-      #aside {
+    }
+    section {
+        background-color: black;   
+       margin-bottom: 20px;
+        width: 950px;
+    }
+    aside {
         width: 245px;
         padding: 10px;
         margin-bottom: 15px;
         float: right;
         border: 1px solid #bcbcbc;
-        
-      }
-      #footer {
+    }
+    footer {
         clear: both;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid #bcbcbc;
-      }
+    }
+    article {
+    width: 860px;
+        padding: 20px;
+        margin : 20px;
+        float: left;
+        border: 1px solid #bcbcbc;
+        background-color : #EAEAEA; 
+    }
 </style>
+ 
 <title> 김 소 연 </title>
 </head>
-
 <body bgcolor="#33333" text="#000000" >
-
-  <div id="container">
-      <div id="header">
+  
+   <header>
+               <font color = white>
          <h1> portfolio KimSoyeon </h1>
-                     <h2> Daejeon University computer 16 </h2>
-      </div>
-
-      <div id="nav">
-        <h2>List</h2>
-  <header>  
-  <ul>
-  <li>
-     <a href="http://orollho1614.github.io/portfolio.html">profile</a></li>
+         <h2> Daejeon University computer 16 </h2>
+            </font>
+        </header>
+       
+        <nav>
+        <fieldset>
+              <font color = "333333">
+                   <h3>List</h3>
+              </font>
+ <ul>
+    <li><a href="http://orollho1614.github.io/portfolio.html">profile</a></li>
      <li><a href="http://orollho1614.github.io/portfolio.html">timetable</a></li>
      <li><a href="http://orollho1614.github.io/portfolio.html">subject</a></li>
      <li><a href="http://orollho1614.github.io/portfolio.html">want</a></li>
-  </ul></header>
-      </div>
-
-     <div id="artcle">
-     <center>
-        <h2>------------------ timetable ------------------</h2>
+       </ul>
+</fieldset>
+        </nav>
+       
+        <section>
+            <article>
+               <center>
+                  <fieldset>
+        <legend><h2> TIMETABLE </h2></legend>
         <table border="1" align="center">
           <caption>
             <h1>2017년 1학기</h1>
@@ -95,14 +103,15 @@ p#user_id_1 {color:white;}
               <td><strong>1교시<br/>09:00~10:00</strong></td>
               <td></td>
               <td></td>
-              <td rowspan="2" width="90" style="background:#33CC99">자료구조
-                <br/>24404</td>
+              <td rowspan="2" width="90" style="background:#33CC99">
+              자료구조 <br/>24404</td>
               <td></td>
     
             </tr>
             <tr height="60">
               <td><strong>2교시<br/>10:00~11:00</strong></td>
-              <td rowspan="2" width="90" style="background:#99CCFF">디지털
+              <td rowspan="2" width="90" style="background:#99CCFF">
+               디지털
                 <br/>논리회로
                 <br/>24402</td>
               <td></td>
@@ -133,16 +142,15 @@ p#user_id_1 {color:white;}
                      인터넷
                 <br/>프로그래밍
                 <br/>24404</td>
-             
             </tr>
+
             <tr height="60">
               <td><strong>6교시<br/>2:00~3:00</strong></td>
               <td rowspan="4" width="90" style="background:#FF6699;">C++
                 <br/>24404</td>
               <td></td>
-            
-           
             </tr>
+
             <tr height="60">
               <td><strong>7교시<br/>3:00~4:00</strong></td>
               <td rowspan="2" width="90" style="background:#FFCC99">인터넷
@@ -153,33 +161,33 @@ p#user_id_1 {color:white;}
                 <br/>멘토링
                 <br/>
               </td>
-           
             </tr>
+
             <tr height="60">
               <td><strong>8교시<br/>4:00~5:00</strong></td>
-              <td></td>
- 
-            </tr>
-            <tr height="60">
+              <td></td>           
+              </tr>
+            
+              <tr height="60">
               <td><strong>9교시<br/>5:00~6:00</strong></td>
               <td></td>
               <td></td>
               <td></td>
-           
-            </tr>
+              </tr>
           </tbody>
         </table>
-      </center>
-    </div>
+              </fieldset>
+              </center>
+            </article>
+        </section>
+    
+        <aside>
+                <img src="PSY.png">
+        </aside>
 
-    <div id="aside">
-      <img src="PSY.png">
-    </div>
-
-    <div id="footer">
-      <p>&copy; 20XX Made by Soyeon. All rights reserverd</p>
-    </div>
-  </div>
+        <footer> <font color = white>
+      <p>&copy; 20XX Made by So_Yeon. All rights reserverd. </p>
+      </font></footer>
 </body>
-
 </html>
+
