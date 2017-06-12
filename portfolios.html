@@ -1,109 +1,120 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-<head><meta charset="utf-8"/>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
 
-<style>
-#container { font-family: 'Asar', serif; }
-p#user_id_1 {color:white;}
- body 
-       { 
-         background-size : 100%; 
-         background-repeat : no-repeat; 
+<style type="text/css">
+    body {
+      font-family: 'Asar', serif;
         width: 1500px;
-        margin: 0px auto;
+        margin : auto;
         padding: 20px;
-        border: 1px solid #bcbcbc;
-      }
-      #header {
+        border-radius : 25px;
+        border: 3px dashed #bcbcbc;
+    }
+  header {
         padding: 20px;
         margin-bottom: 20px;
         border: 1px solid #bcbcbc;
         background-image : url('P.png');
-      }
-      #nav {
-        width: 150px;
-        padding: 40px;
+    }
+    nav, section {
+        float: left;
+    }
+    nav {
+       width: 150px;
+        padding: 15px;
         margin-right: 30px;
         margin-bottom: 20px;
-        float: left;
         border: 1px solid #bcbcbc;
         background-color : #EAEAEA; 
-      }
-      #main{
-        width: 900px;
-        padding: 20px;
-        margin-bottom: 20px;
-        float: left;
-        border: 1px solid #bcbcbc;
-        background-color : #EAEAEA; 
-      }
-      #aside {
+    }
+    section {
+        background-color: black;   
+       margin-bottom: 20px;
+        width: 950px;
+    }
+    aside {
         width: 245px;
         padding: 10px;
         margin-bottom: 15px;
         float: right;
         border: 1px solid #bcbcbc;
-        
-      }
-      #footer {
+    }
+    footer {
         clear: both;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid #bcbcbc;
-      }
+    }
+    article {
+    width: 860px;
+        padding: 20px;
+        margin : 20px;
+        float: left;
+        border: 1px solid #bcbcbc;
+        background-color : #EAEAEA; 
+    }
 </style>
+ 
 <title> 김 소 연 </title>
 </head>
-
 <body bgcolor="#33333" text="#000000" >
-
-  <div id="container">
-      <div id="header">
+  
+   <header>
+               <font color = white>
          <h1> portfolio KimSoyeon </h1>
-                     <h2> Daejeon University computer 16 </h2>
-      </div>
-
-      <div id="nav">
-        <h2>List</h2>
-  <header>  
-  <ul>
-  <li>
-     <a href="http://orollho1614.github.io/portfolio.html">profile</a></li>
-     <li><a href="http://orollho1614.github.io/portfoliot.html">timetable</a></li>
-     <li><a href="http://orollho1614.github.io/portfolios.html">subject</a></li>
-     <li><a href="http://orollho1614.github.io/portfoliow.html">want</a></li>
-  </ul></header>
-      </div>
-
-        <div id="main">
-<center>
-<h2>------------------ subject ------------------</h2>
- <h3> ------  과목이수  ------ </h3>
-<ul>
+         <h2> Daejeon University computer 16 </h2>
+            </font>
+        </header>
+       
+        <nav>
+        <fieldset>
+              <font color = "333333">
+                   <h3>List</h3>
+              </font>
+ <ul>
+    <li><a href="http://orollho1614.github.io/portfolio.html">profile</a></li>
+     <li><a href="http://orollho1614.github.io/portfolio.html">timetable</a></li>
+     <li><a href="http://orollho1614.github.io/portfolio.html">subject</a></li>
+     <li><a href="http://orollho1614.github.io/portfolio.html">want</a></li>
+       </ul>
+</fieldset>
+        </nav>
+       
+        <section>
+            <article>
+               <center>
+                  <fieldset>
+        <legend><h2> SUBJECT </h2></legend>
+          <h3> 과목 이수 </h3>
 <ul>
  <li>2016년 1학기</li>
- <br/>
+ 
+        <br/>
  <img src="P201601.png" alt="201601"/>
- <br/> 
+ 
+       <br/> 
  <li>2016년 2학기</li>
  <br/> 
  <img src="P201602.png" alt="201602"/>
- <br/>   
- <li>2017년 1학기</li>
+ 
+       <br/>  <li>2017년 1학기</li>
  <br/>
  <img src="P201701.png" alt="201701"/>
  </ul>
-         </center>
-   </div>
+              </fieldset>
+              </center>
+            </article>
+        </section>
+    
+        <aside>
+                <img src="PSY.png">
+        </aside>
 
-      <div id="aside">
-      <img src = "PSY.png">
-      </div>
-
-      <div id="footer">
-        <p>&copy; 20XX Made by Soyeon. All rights reserverd</p>
-      </div>
- </div>
+        <footer> <font color = white>
+      <p>&copy; 20XX Made by So_Yeon. All rights reserverd. </p>
+      </font></footer>
 </body>
 </html>
+
